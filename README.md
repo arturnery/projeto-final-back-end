@@ -1,84 +1,64 @@
-# FoodExplorer Back-end aaaa
+# Cardápio Digital - Projeto Final da Rocketseat (Back-end)
 
-Para acessar o projeto no ar, clique aqui [AQUI](https://food-explorer-front-end.netlify.app/) ou visite o repositório [Front-end](https://github.com/HenricoAngolera/food_explorer_frontend)
+Para acessar o projeto online, clique aqui [AQUI](https://stupendous-tapioca-d0024b.netlify.app/) ou se preferir visite o repositório [Front-end](https://github.com/arturnery/projeto-final-front-end)
 
-Este é projeto é o back-end do desafio final do Explorer da Rocketseat, ele consiste em um e-comerce de restaurante figurativo. E usei as seguintes tecnologias:
+Este projeto é desenvolvido como parte do desafio final do curso da Rocketseat(Back-end). Ele representa um cardapio digital que pode ser usado como modelo para diversos tipos de estabelecimento de comida online.
 
-## Stack utilizada
+## Tecnologias Utilizadas
 
-**Back-end:** NodeJS, express.js, bcryptjs, cors, dotenv, knex, multer, sqlite
+**Back-end:** Node.js, Express.js, Bcrypt.js, Cors, Dotenv, Knex, Multer, SQLite.
 
-**Ferramentas:** Insomnia, beekeeper
+**Ferramentas:** Insomnia, Beekeeper.
 
-## Usuários Cadastrados
+## Como Utilizar
 
-Para acessar o sistema como usuário administrador, você pode usar as seguintes credenciais no login:
+Para acessar o sistema como usuário administrador, utilize as seguintes credenciais no login:
 
 - email: admin@email.com
 - senha: 123456
 
-Você pode cadastrar um novo usuário comum, ou usar um já cadastrado:
+Se preferir fazer login com outra conta, basta criar um novo usuário:
 
-- email: henrico@email.com
-- senha: 123456
+- criar conta
 
-Você pode acessar o projeto front-end online: [https://food-explorer-front-end.netlify.app/](https://food-explorer-front-end.netlify.app/) , ou rodar localmente, informações de como executar o front-end em [Front-end](https://github.com/HenricoAngolera/food_explorer_frontend)
+Você pode acessar a versão online do projeto : [AQUI](https://stupendous-tapioca-d0024b.netlify.app/), ou executá-lo localmente. Para informações de como executar o front-end localmente, consulte o [Front-end](https://github.com/arturnery/projeto-final-front-end)
 .
 
-## Como utilizar:
+## Como Instalar:
 
-O back-end em produção está neste link: [https://foodexplorer-api-tfpp.onrender.com](https://foodexplorer-api-tfpp.onrender.com)
+Para criar um banco de dados localmente, siga estas etapas:
 
-Para criar um banco de dados local localmente, siga os seguintes passos:
-
-Primeiramente, você precisa ter instalado Git e NodeJS para executar este projeto.
-
-Com tudo instalado, você pode clonar este projeto, rodando no teminal com a pasta da sua preferência:
+Clone este repositório em sua máquina local:
 
 ```bash
-    git clone https://github.com/HenricoAngolera/food_explorer_backend.git
+    git clone https://github.com/arturnery/projeto-final-back-end
 
-    # ou
-
-    git clone git@github.com:HenricoAngolera/food_explorer_backend.git
 ```
-
-Com o projeto clonado, você entra na pasta que foi criada após esse processo:
+Acesse o diretório do projeto:
 
 ```bash
-    cd food_explorer_backend
+    cd seu-repositorio-backend
+
 ```
 
-Para instalar os pacotes da pasta node_modules, rodar o seguinte comando:
+Instale as dependências:
 
 ```bash
     npm install
 ```
 
-Então, podar o seguinte comando para iniciar o projeto:
+Inicie o projeto:
 
 ```bash
     npm run dev
 ```
 
-E então, em outro terminal você pode rodar o comando para gerar as tabelas no banco de dados:
-
-```bash
-    npm run migrate
-```
-
-Caso você queira editar informações como o segredo do token ou a porta do projeto, você pode criar seu arquivo `.env` seguindo o arquivo `.env.example` e inserir suas informações desejadas.
-
-## Relacionados
-
-Segue o projeto front-end desta aplicação:
-
-[FoodExplorer Front-end](https://github.com/HenricoAngolera/food_explorer_frontend)
+Se você desejar personalizar configurações, como o segredo do token ou a porta do projeto, crie um arquivo .env seguindo o modelo .env.example e insira suas informações.
 
 ## Considerações finais
 
-Estes projetos, tanto o back-end quanto o front-end representam muito do que aprendi nos últimos tempos, fiquei muito satisfeito com minha evolução, mas vou evoluir ainda mais! Este projeto será melhorado ao longo do tempo, obrigado por ler até aqui! 
+Este projeto é o resultado de todo o aprendizado adquirido ao longo do curso do Explorer da Rocketseat. Estou satisfeito com a evolução e como enfrentei as dificuldades que surgiram no caminho.
 
 ## Feedback
 
-Se você tiver algum feedback, por favor me deixe saber por meio de henrico.an@gmail.com
+Se você tiver interesse em fornecer feedback ou colaborar de alguma forma, entre em contato pelo  e-mail [arturnery1997@gmail.com]
